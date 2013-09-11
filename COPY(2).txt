@@ -1,0 +1,20 @@
+COPY(2)
+-----------------------------------------------------------
+[ 機能 ]
+複数のファイルを連結します。
+
+[ 書式 ]
+COPY [/A|/B] <連結元ファイル名1>[/A|/B][+<連結元ファイル名2>[/A|/B] [...+<連結元ファイル名n>[/A|/B]]] [<連結先ファイル名>][/A|/B]
+
+[ 文例 ]
+COPY TEST1.TXT+TEST2.TXT TEST.TXT
+TEST1.TXT と TEST2.TXT を連結したファイル TEST.TXT を作成します。
+
+COPY TEST1.TXT+TEST2.TXT TEST1.TXT
+TEST1.TXT に TEST2.TXT を付加します。
+
+COPY *.TX TEXT.TXT
+拡張子 .TX を持つ全ファイル連結したファイル TEXT.TXT を作成します。
+
+[ 解説 ]
+MSX-DOS(1) では COPY で連結を行なっていますが、MSX-DOS2 では CONCAT という別のコマンドになっています。
