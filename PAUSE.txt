@@ -1,29 +1,29 @@
 PAUSE
 -----------------------------------------------------------
-[ �@�\ ]
-���s���ꎞ��~���܂��B
+[ 機能 ]
+実行を一時停止します。
 
-[ ���� ]
-PAUSE [<�R�����g>]
+[ 書式 ]
+PAUSE [<コメント>]
 
-[ ���� ]
+[ 文例 ]
 PAUSE Insert disk in drive B:
 
-[ ��� ]
-�o�b�`�����̎��s���ꎞ��~���܂��B�ʏ�̓o�b�`�t�@�C���ŗp�����܂��B
-�ȉ��̂悤�ȏo�͂��s���܂��B
+[ 解説 ]
+バッチ処理の実行を一時停止します。通常はバッチファイルで用いられます。
+以下のような出力が行われます。
 
-	Strick any key when ready ��
-	(�������ł�����ǂꂩ�L�[�������ĉ�����)
+    Strick any key when ready ■
+    (準備ができたらどれかキーを押して下さい)
 
-[CTRL]+[C] �ȊO�̃L�[�Ŏ��s���ĊJ����܂��B
-[CTRL]+[C] �̏ꍇ�͈ȉ��̃��b�Z�[�W���\������܂��B
+[CTRL]+[C] 以外のキーで実行が再開されます。
+[CTRL]+[C] の場合は以下のメッセージが表示されます。
 
-	Triminate batch file (Y/N)? ��
-	(�o�b�`�����𒆎~���܂����H)
+    Triminate batch file (Y/N)? ■
+    (バッチ処理を中止しますか？)
 
-������ [Y] �L�[����͂���Ǝ��s�����~����AMSX-DOS �̃R�}���h�҂��ƂȂ�܂��B[N] �L�[����͂���Ǝ��s���ĊJ����܂��B
-MSX-DOS(1) �ł̓R�}���h���o�͂���邽�߁A�R�}���h�ɋL�ڂ��s�Ȃ����ŁA���p�҂Ɏw���𑣂������\�ł��B
+ここで [Y] キーを入力すると実行が中止され、MSX-DOS のコマンド待ちとなります。[N] キーを入力すると実行が再開されます。
+MSX-DOS(1) ではコマンドが出力されるため、コマンドに記載を行なう事で、利用者に指示を促す事が可能です。
 
-[ �Q�l ]
+[ 参考 ]
 REM

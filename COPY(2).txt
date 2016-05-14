@@ -1,20 +1,20 @@
 COPY(2)
 -----------------------------------------------------------
-[ ‹@”\ ]
-•¡”‚Ìƒtƒ@ƒCƒ‹‚ð˜AŒ‹‚µ‚Ü‚·B
+[ æ©Ÿèƒ½ ]
+è¤‡æ•°ã®ãƒ•ã‚¡ã‚¤ãƒ«ã‚’é€£çµã—ã¾ã™ã€‚
 
-[ ‘Ž® ]
-COPY [/A|/B] <˜AŒ‹Œ³ƒtƒ@ƒCƒ‹–¼1>[/A|/B][+<˜AŒ‹Œ³ƒtƒ@ƒCƒ‹–¼2>[/A|/B] [...+<˜AŒ‹Œ³ƒtƒ@ƒCƒ‹–¼n>[/A|/B]]] [<˜AŒ‹æƒtƒ@ƒCƒ‹–¼>][/A|/B]
+[ æ›¸å¼ ]
+COPY [/A|/B] <é€£çµå…ƒãƒ•ã‚¡ã‚¤ãƒ«å1>[/A|/B][+<é€£çµå…ƒãƒ•ã‚¡ã‚¤ãƒ«å2>[/A|/B] [...+<é€£çµå…ƒãƒ•ã‚¡ã‚¤ãƒ«ån>[/A|/B]]] [<é€£çµå…ˆãƒ•ã‚¡ã‚¤ãƒ«å>][/A|/B]
 
-[ •¶—á ]
+[ æ–‡ä¾‹ ]
 COPY TEST1.TXT+TEST2.TXT TEST.TXT
-TEST1.TXT ‚Æ TEST2.TXT ‚ð˜AŒ‹‚µ‚½ƒtƒ@ƒCƒ‹ TEST.TXT ‚ðì¬‚µ‚Ü‚·B
+TEST1.TXT ã¨ TEST2.TXT ã‚’é€£çµã—ãŸãƒ•ã‚¡ã‚¤ãƒ« TEST.TXT ã‚’ä½œæˆã—ã¾ã™ã€‚
 
 COPY TEST1.TXT+TEST2.TXT TEST1.TXT
-TEST1.TXT ‚É TEST2.TXT ‚ð•t‰Á‚µ‚Ü‚·B
+TEST1.TXT ã« TEST2.TXT ã‚’ä»˜åŠ ã—ã¾ã™ã€‚
 
 COPY *.TX TEXT.TXT
-Šg’£Žq .TX ‚ðŽ‚Â‘Sƒtƒ@ƒCƒ‹˜AŒ‹‚µ‚½ƒtƒ@ƒCƒ‹ TEXT.TXT ‚ðì¬‚µ‚Ü‚·B
+æ‹¡å¼µå­ .TX ã‚’æŒã¤å…¨ãƒ•ã‚¡ã‚¤ãƒ«é€£çµã—ãŸãƒ•ã‚¡ã‚¤ãƒ« TEXT.TXT ã‚’ä½œæˆã—ã¾ã™ã€‚
 
-[ ‰ðà ]
-MSX-DOS(1) ‚Å‚Í COPY ‚Å˜AŒ‹‚ðs‚È‚Á‚Ä‚¢‚Ü‚·‚ªAMSX-DOS2 ‚Å‚Í CONCAT ‚Æ‚¢‚¤•Ê‚ÌƒRƒ}ƒ“ƒh‚É‚È‚Á‚Ä‚¢‚Ü‚·B
+[ è§£èª¬ ]
+MSX-DOS(1) ã§ã¯ COPY ã§é€£çµã‚’è¡Œãªã£ã¦ã„ã¾ã™ãŒã€MSX-DOS2 ã§ã¯ CONCAT ã¨ã„ã†åˆ¥ã®ã‚³ãƒžãƒ³ãƒ‰ã«ãªã£ã¦ã„ã¾ã™ã€‚

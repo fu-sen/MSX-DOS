@@ -1,34 +1,34 @@
 FORMAT
 -----------------------------------------------------------
-MSXPLAYer �ł͓��삵�܂���
+MSXPLAYer では動作しません
 
-[ �@�\ ]
-�V�����t���b�s�[�f�B�X�N���g�p�ł���悤�ɏ�����(�t�H�[�}�b�g)���܂��B
+[ 機能 ]
+新しいフロッピーディスクを使用できるように初期化(フォーマット)します。
 
-[ ���� ]
+[ 書式 ]
 FORMAT
 
-[ ���� ]
-�Θb�`���ɂ���Đi�߂��܂��B
-�ȉ��� 2DD �^�C�v�̏ꍇ�̈��Ƃ��āA
-A �h���C�u�ɂ���t���b�s�[�f�B�X�N��9�Z�N�^�[ 2DD �ŏ��������Ă��܂��B
-(�h���C�u�ɂ���ĕ\���͈قȂ�܂��B)
+[ 文例 ]
+対話形式によって進められます。
+以下は 2DD タイプの場合の一例として、
+A ドライブにあるフロッピーディスクを9セクター 2DD で初期化しています。
+(ドライブによって表示は異なります。)
 
-	A>FORMAT
-	Drive name? (A,B) A
+    A>FORMAT
+    Drive name? (A,B) A
 
-	Drive Type
-	1...8sectors, single sided
-	2...8sectors, single sided
-	3...9sectors, double sided
-	4...9sectors, double sided
+    Drive Type
+    1...8sectors, single sided
+    2...8sectors, single sided
+    3...9sectors, double sided
+    4...9sectors, double sided
 
-	? 4
-	Strike a key when ready
-	Format complete
+    ? 4
+    Strike a key when ready
+    Format complete
 
-	A>��
+    A>■
 
-���f���s�Ȃ��ꍇ�� [CTRL]+[C} �L�[�ɂ���čs�Ȃ��܂��B
+中断を行なう場合は [CTRL]+[C} キーによって行ないます。
 
-BASIC �ł� CALL FORMAT�i_FORMAT�j�ɊY�����܂��B
+BASIC では CALL FORMAT（_FORMAT）に該当します。

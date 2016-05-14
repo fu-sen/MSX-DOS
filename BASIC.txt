@@ -1,12 +1,12 @@
 BASIC
 -----------------------------------------------------------
-[ �@�\ ]
-BASIC ���N�����܂��B
+[ 機能 ]
+BASIC を起動します。
 
-[ ���� ]
-BASIC [<�t�@�C����>]
+[ 書式 ]
+BASIC [<ファイル名>]
 
-[ ���� ]
-<�t�@�C����> ������ƁABASIC �N�����ɂ��̃t�@�C�����ǂݍ��܂�A���s����܂��BBASIC �݂̂̏ꍇ�͋N���݂̂��s�Ȃ��܂��B
-BASIC ���� MSX-DOS �ɖ߂�ꍇ�� CALL SYSTEM �R�}���h(_SYSTEM)��p���܂��B
-MSX-DOS �� BASIC �ł̓������\�����s�Ȃ��Ă���ׁA����������ăf�[�^�̂��Ƃ���s�Ȃ����͂ł��܂���B�f�B�X�N�ɕۑ����铙�̑Ή����K�v�ł��B
+[ 文例 ]
+<ファイル名> を入れると、BASIC 起動時にそのファイルが読み込まれ、実行されます。BASIC のみの場合は起動のみが行なわれます。
+BASIC から MSX-DOS に戻る場合は CALL SYSTEM コマンド(_SYSTEM)を用います。
+MSX-DOS と BASIC ではメモリ構成が行なっている為、メモリを介してデータのやりとりを行なう事はできません。ディスクに保存する等の対応が必要です。

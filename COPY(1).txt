@@ -1,23 +1,23 @@
 COPY(1)
 -----------------------------------------------------------
-[ �@�\ ]
-�t�@�C���𕡐�(�R�s�[)���܂��B
+[ 機能 ]
+ファイルを複製(コピー)します。
 
-[ ���� ]
-COPY [/A|/B} <�R�s�[���t�@�C����>[/A|/B] [<�R�s�[��t�@�C����>[/A|/B]]
+[ 書式 ]
+COPY [/A|/B} <コピー元ファイル名>[/A|/B] [<コピー先ファイル名>[/A|/B]]
 
-[ ���� ]
+[ 文例 ]
 COPY MSXDOS.SYS MSXDOS.BAK
-�t�@�C�� MSXDOS.SYS �𕡐����� MSXDOS.BAK ���쐬���܂��B
+ファイル MSXDOS.SYS を複製した MSXDOS.BAK を作成します。
 
 COPY A:MSXDOS.SYS B:
-A �h���C�u�ɂ��� MSXDOS.SYS �� B �h���C�u�ɃR�s�[���܂��B
+A ドライブにある MSXDOS.SYS を B ドライブにコピーします。
 
 COPY *.* B:
-�J�����h�h���C�u�ɂ���S�t�@�C���� B �h���C�u�ɃR�s�[���܂��B
+カレンドドライブにある全ファイルを B ドライブにコピーします。
 
-[ ��� ]
-<�R�s�[���t�@�C����> �𕡐����A<�R�s�[��t�@�C����> �̖��O�ō쐬���܂��B
-/A �̓A�X�L�[���[�h�A/B �̓o�C�i�����[�h�̈Ӗ��ŁA
-/A �� <�R�s�[���t�@�C����> �ɂ����ꍇ�� EOF �ɂ���ď�����ł��؂�܂��B�܂��A<�R�s�[��t�@�C����> �ɂ����ꍇ�̓t�@�C���� EOF ���t�����܂��B/B �ł͂��� EOF �̊m�F�E�t�����s�Ȃ��܂���B�܂��ACOPY ����� /A /B �������ꍇ�́A<�R�s�[���t�@�C����> <�R�s�[��t�@�C����> ���ɗL���ł��B�t���Ȃ��ꍇ�̓o�C�i�����[�h�ŏ�������܂��B
-BASIC �ł� COPY �ɊY�����܂����AMSX-DOS �̕���������e�ʂ��傫�����߁A�e�ʂ��傫���t�@�C���̏ꍇ�̓f�B�X�N����������񐔂������ĕ֗��ł��B
+[ 解説 ]
+<コピー元ファイル名> を複製し、<コピー先ファイル名> の名前で作成します。
+/A はアスキーモード、/B はバイナリモードの意味で、
+/A を <コピー元ファイル名> につけた場合は EOF によって処理を打ち切ります。また、<コピー先ファイル名> につけた場合はファイルに EOF が付けられます。/B ではこの EOF の確認・付加が行なわれません。また、COPY 直後に /A /B をつけた場合は、<コピー元ファイル名> <コピー先ファイル名> 共に有効です。付けない場合はバイナリモードで処理されます。
+BASIC では COPY に該当しますが、MSX-DOS の方が扱われる容量が大きいため、容量が大きいファイルの場合はディスクを交換する回数が減って便利です。
