@@ -1,4 +1,6 @@
-## MSX-DOS
+## MSX-DOS(1) コマンドリファレンス
+
+**MSX-DOS(1) command reference (Japanese)**
 
 .txt ファイルは文字コード UTF-8、改行コード CR+LF で記載しています。
 
